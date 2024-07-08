@@ -13,4 +13,4 @@ Stellar systems are governed by Newton's laws of motion. From Newton's laws, we 
 
 We will be using numerical integration methods to solve the ODEs. The first method involves the use of the **solve_ivp()** function which, by default, uses the Runge-Kutta numerical technique of order 4 and 5 to find the solution. The second is the **Midpoint** method which is a second-order method that is very similar to Euler's method but uses an intermediate step to increase the estimation accuracy.<br>
 
-Please refer to the `modelling_binary_and_triple_star_systems_code.ipynb` Jupyter Notebook to inspect the results.
+Please refer to the [Jupyter Notebook](modelling_binary_and_triple_star_systems_code.ipynb) to inspect the results.
