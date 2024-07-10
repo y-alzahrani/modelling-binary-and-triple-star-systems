@@ -11,7 +11,7 @@ Stellar systems are governed by Newton's laws of motion. From Newton's laws, we 
 
 3. A chaotic solution of a three-body system where one star gets ejected from the system.
 
-We will be using numerical integration methods to solve the ODEs. The first method involves the use of the **solve_ivp()** function which, by default, uses the Runge-Kutta numerical technique of order 4 and 5 to find the solution. The second is the **Midpoint** method which is a second-order method that is very similar to Euler's method but uses an intermediate step to increase the estimation accuracy.<br>
+We will be using numerical integration methods to solve the ODEs. The first method involves the use of the **solve_ivp()** function which, by default, uses the Runge-Kutta numerical technique of order 4 and 5 to find the solution. The second is the **Midpoint** method which is a second-order method that is very similar to Euler's method but includes an additional step where the slope at the midpoint is calculated and used to estimate the value at the next step.<br>
 
 ## Results:
 
