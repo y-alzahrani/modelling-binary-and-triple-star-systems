@@ -34,4 +34,4 @@ We will be using numerical integration methods to solve the ODEs. The first meth
 <br>
 
 
-Please refer to the [Jupyter Notebook](modelling_binary_and_triple_star_systems_code.ipynb) to inspect the code and more results.
+Please refer to the [Jupyter Notebook](modelling_binary_and_triple_star_systems_code.ipynb) to view the code and results.
