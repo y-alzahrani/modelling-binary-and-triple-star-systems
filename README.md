@@ -7,11 +7,11 @@ Star systems are governed by Newton's laws of motion. From Newton's laws, we can
 - $\cos \theta = \frac{(x_j - x_i)}{r_{ij}}$
 - $\sin \theta = \frac{(y_j - y_i)}{r_{ij}}$
 
-2. The stable solution of a three-body system that was discovered by Cris Moore and proved by Chenciner and Montgomery, described [here](https://arxiv.org/abs/math/0011268). The three stars have equal mass and are assumed to be point-like objects which cannot collide. Needless to say, such a system has not yet been observed in nature. For the vast majority of cases, three-star systems consist of two stars closely orbiting one another with the third star orbiting the binary pair at a much larger distance.
+2. The stable solution of a three-body system that was discovered by Cris Moore and proved by Chenciner and Montgomery, described [here](https://arxiv.org/abs/math/0011268). The three stars have equal mass and are assumed to be point-like objects which cannot collide. Needless to say, such a system has not yet been observed. For the vast majority of cases, three-star systems consist of two stars closely orbiting one another with the third star orbiting the binary pair at a much greater distance.
 
 3. A chaotic solution of a three-body system where one star gets ejected from the system.
 
-We will be using numerical integration methods to solve the ODEs. The first method involves the use of the **solve_ivp()** function which, by default, utilises the Runge-Kutta numerical technique of order 4 and 5 to find the solution. The second is the **Midpoint** method which is a second-order method that is very similar to Euler's method, but includes an additional step where the slope at the midpoint is calculated and used to estimate the value at the next step.<br>
+We will be using numerical integration methods to solve the ODEs. The first method involves the use of the **solve_ivp()** function which, by default, utilizes the Runge-Kutta numerical technique of order 4 and 5 to find the solution. The second is the **Midpoint** method which is a second-order method that is very similar to Euler's method, but includes an additional step where the slope at the midpoint is calculated and used to estimate the value at the next step.<br>
 
 ## Results:
 
